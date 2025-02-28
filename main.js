@@ -1,6 +1,6 @@
 const catBotton = document.getElementById('cat');
 const dogBotton = document.getElementById('dog');
-const quoteBotton = document.getElementById('qoute');
+const quoteBotton = document.getElementById('quote');
 
 const catApiUrl = 'https://api.thecatapi.com/v1/images/search';
 const dogApiUrl = 'https://dog.ceo/api/breeds/image/random';
