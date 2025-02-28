@@ -34,7 +34,7 @@ function fetchQuote() {
   fetch(quoteApiUrl)
     .then(response => response.text())
     .then(quoteImageURL => {
-      document.getElementById('qouteImage').src = quoteImageURL;
+      document.getElementById('quoteImage').src = quoteImageURL;
     })
     .catch(error => alert('Error fetching quote'));
 }
